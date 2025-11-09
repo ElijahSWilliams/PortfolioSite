@@ -9,8 +9,9 @@ import Contact from "./Contact/Contact.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
-  const [position, setPosition] = useState();
+  const [position, setPosition] = useState({ x: 0, y: 0 });
 
+  /* This code tracks the cursor for mouse move events */
   useEffect(() => {
     const moveCursor = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
@@ -19,7 +20,9 @@ function App() {
     window.addEventListener("mousemove", moveCursor);
 
     return () => window.removeEventListener("mousemove", moveCursor);
-  });
+  }, []);
+
+  /* Custom Cursor Effects */
 
   return (
     <>

@@ -29,8 +29,8 @@ const projects = [
 
 function Project() {
   return (
-    <div className="py-12 bg-gray-900 text-white">
-      <h1 className="text-4xl font-bold text-center mb-10 border-b-2 border-gray-700 pb-2">
+    <div className="max-w-6xl mx-auto px-6 py-12 mt-10">
+      <h1 className="text-3xl font-bold text-center mb-10 border-b-2 border-gray-400 mt-10">
         Projects
       </h1>
 

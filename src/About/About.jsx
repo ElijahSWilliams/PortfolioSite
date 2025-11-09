@@ -2,9 +2,9 @@ import React from "react";
 
 function About() {
   return (
-    <div className="max-w-6xl mx-auto px-6 py-12">
+    <div className="max-w-6xl mx-auto px-6 py-12 mt-10">
       {/* Section Heading */}
-      <h1 className="text-3xl font-bold text-center border-b-2 border-gray-400 pb-4 mb-12">
+      <h1 className="text-3xl font-bold text-center border-b-2 border-gray-400 mt-10 mb-12">
         About Me
       </h1>
 

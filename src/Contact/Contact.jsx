@@ -13,23 +13,29 @@ function Contact() {
         name="contact"
         layout="vertical"
         onFinish={onFinish}
-        className="bg-gray-900 p-10 rounded-2xl shadow-2xl w-full max-w-lg text-white"
+        className="bg-gradient-to-l from-black to-gray-800 p-10 rounded-2xl shadow-2xl w-full max-w-lg text-white"
       >
-        <h2 className="text-3xl font-bold mb-8 text-center border-b-2 border-gray-700 pb-4">
+        <h2 className="text-3xl font-bold mb-8 text-center border-b-2 border-black-700 pb-4 text-white">
           Contact Me
         </h2>
 
+        {/* Name */}
         <Form.Item
           label="Name"
           name="name"
           rules={[{ required: true, message: "Please enter your name!" }]}
         >
-          <Input
-            className="bg-gray-800 text-white rounded-lg p-3 border-none focus:outline-none focus:ring-2 focus:ring-indigo-500 transition"
-            placeholder="Your Name"
-          />
+          <div className="w-[475px] mx-auto">
+            {" "}
+            {/* Div for resizing the input fields */}
+            <Input
+              className=" bg-gray-800 text-white rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-indigo-500 transition"
+              placeholder="Your Name"
+            />
+          </div>
         </Form.Item>
 
+        {/* Email */}
         <Form.Item
           label="Email"
           name="email"
@@ -37,25 +43,35 @@ function Contact() {
             { required: true, message: "Please enter your email!" },
             { type: "email", message: "Please enter a valid email!" },
           ]}
+          className=""
         >
-          <Input
-            className="bg-gray-800 text-white rounded-lg p-3 border-none focus:outline-none focus:ring-2 focus:ring-indigo-500 transition"
-            placeholder="Your Email"
-          />
+          <div className="w-[475px] mx-auto">
+            {" "}
+            {/* Div for resizing email input field */}
+            <Input
+              className="w-full px-[10px] py-3 bg-gray-800 text-white rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-indigo-500 transition"
+              placeholder="Your Email"
+            />
+          </div>
         </Form.Item>
 
+        {/* Message */}
         <Form.Item
           label="Message"
           name="message"
           rules={[{ required: true, message: "Please enter a message!" }]}
+          className=""
         >
-          <Input.TextArea
-            rows={5}
-            className="bg-gray-800 text-white rounded-lg p-3 border-none focus:outline-none focus:ring-2 focus:ring-indigo-500 transition"
-            placeholder="Your Message"
-          />
+          <div className="w-[475px] mx-auto">
+            <Input.TextArea
+              rows={5}
+              className="w-full px-[10px] py-3 bg-gray-800 text-white rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-indigo-500 transition"
+              placeholder="Your Message"
+            />
+          </div>
         </Form.Item>
 
+        {/* Submit Button */}
         <Form.Item>
           <Button
             type="primary"

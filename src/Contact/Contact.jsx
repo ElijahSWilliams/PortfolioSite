@@ -1,10 +1,31 @@
 import React from "react";
 import { Form, Input, Button } from "antd";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const [form] = Form.useForm();
+
+  /* Function to handle email requests */
   const onFinish = (values) => {
-    console.log("Form Submitted:", values);
-    alert("Message sent! Check console for data.");
+    emailjs
+      .send(
+        "service_649rxkg", //email id
+        "template_uk1t98b", //template id
+        {
+          name: values.name,
+          email: values.email,
+          message: values.message,
+        },
+        "7cLF-__xOxAdeOZ_d" //public key
+      )
+      .then(() => {
+        alert("Sent");
+        form.resetFields(); //reset
+      })
+      .catch((err) => {
+        console.error(err);
+        alert("Send Failed!");
+      });
   };
 
   return (

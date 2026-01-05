@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-      <div className=" flex flex-col text-neutral-300 font-semibold text-center overflow-y-auto no-scrollbar h-screen bg-gradient-to-r from-black to-red-500 sm:from-black sm:to-gray-800">
+      <div className=" flex flex-col text-neutral-300 font-semibold text-center overflow-y-auto no-scrollbar bg-gradient-to-r from-black to-red-500 sm:from-black sm:to-gray-800">
         {/* Flexbox For Hero Content */}
         <section
           id="home"

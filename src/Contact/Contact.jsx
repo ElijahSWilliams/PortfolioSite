@@ -46,7 +46,7 @@ function Contact() {
           name="name"
           rules={[{ required: true, message: "Please enter your name!" }]}
         >
-          <div className="w-[475px] mx-auto">
+          <div className="w-[250px] sm:w-[450px] mx-auto">
             {" "}
             {/* Div for resizing the input fields */}
             <Input
@@ -66,7 +66,7 @@ function Contact() {
           ]}
           className=""
         >
-          <div className="w-[475px] mx-auto">
+          <div className="w-[250px] sm:w-[450px] mx-auto">
             {" "}
             {/* Div for resizing email input field */}
             <Input
@@ -83,7 +83,7 @@ function Contact() {
           rules={[{ required: true, message: "Please enter a message!" }]}
           className=""
         >
-          <div className="w-[475px] mx-auto">
+          <div className="w-[250px] sm:w-[450px] mx-auto">
             <Input.TextArea
               rows={5}
               className="w-full px-[10px] py-3 bg-gray-800 text-white rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-indigo-500 transition"
@@ -97,7 +97,7 @@ function Contact() {
           <Button
             type="primary"
             htmlType="submit"
-            className="w-full py-3 rounded-xl text-lg font-semibold bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 transition"
+            className=" w-[250px] sm:w-[450px] py-3 rounded-xl text-lg font-semibold bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 transition"
           >
             Send
           </Button>

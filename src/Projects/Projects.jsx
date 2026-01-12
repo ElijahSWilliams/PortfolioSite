@@ -6,8 +6,8 @@ const projects = [
     Description:
       "A Quiz Game App that fetches the user's Spotify data to showcase the songs.",
     Tech: ["React", "CSS"],
-    Link: "N/A",
-    Repo: ["N/A"],
+    Link: "https://elijahswilliams.github.io/SongQUIZ/",
+    Repo: ["https://github.com/ElijahSWilliams/SongQUIZ"],
   },
   {
     Title: "What's the Weather (Frontend)",
@@ -43,15 +43,14 @@ function Project() {
             <h2 className="text-2xl font-semibold mb-3">{project.Title}</h2>
             <p className="mb-3 text-gray-300">{project.Description}</p>
             <p className="mb-3">
-              <span className="font-semibold">Tech:</span>{" "}
+              <span className="font-semibold">Tech: </span>{" "}
               {project.Tech.join(", ")}
             </p>
             <p className="mb-1">
-              <span className="font-semibold">Link:</span> {project.Link}
-            </p>
-            <p>
-              <span className="font-semibold">Repo:</span>{" "}
-              {project.Repo.join(", ")}
+              <span className="font-semibold">Link: </span>
+              <a href={project.Link} target="_blank">
+                Visit the site
+              </a>
             </p>
           </div>
         ))}

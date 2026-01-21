@@ -10,19 +10,19 @@ const projects = [
     Repo: ["https://github.com/ElijahSWilliams/SongQUIZ"],
   },
   {
-    Title: "What's the Weather (Frontend)",
+    Title: "What's the Weather (Frontend/Backend)",
     Description:
-      "A frontend app that fetches weather data and displays it dynamically.",
+      "A web app that fetches weather data and displays it dynamically.",
     Tech: ["React", "CSS"],
-    Link: "N/A",
+    Link: "https://elijahswilliams.github.io/se_project_react/",
     Repo: ["N/A"],
   },
   {
-    Title: "What's the Weather (Backend)",
+    Title: "Around the US",
     Description:
-      "Backend service to serve weather data using an API and Node.js.",
-    Tech: ["Node.js", "Express", "MongoDB"],
-    Link: "N/A",
+      "A social media clone that allows users to add/remove, like/unlike, and upload/delete photos",
+    Tech: ["Javascript", "CSS", "APIs"],
+    Link: "https://elijahswilliams.github.io/se_project_aroundtheus/",
     Repo: ["N/A"],
   },
 ];

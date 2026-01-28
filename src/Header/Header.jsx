@@ -46,7 +46,7 @@ function Header() {
           Contact
         </a>
         <a
-          href="/FINALIZED_TECH_RESUME.pdf"
+          href={`${process.env.PUBLIC_URL}/FINALIZED_TECH_RESUME.pdf`}
           download
           target="_blank"
           rel="noopener noreferrer"

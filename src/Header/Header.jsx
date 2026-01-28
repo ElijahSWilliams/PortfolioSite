@@ -45,6 +45,15 @@ function Header() {
         >
           Contact
         </a>
+        <a
+          href="/FINALIZED_TECH_RESUME.pdf"
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-white transition text-sm px-4 py-2 border-b-2 border-transparent hover:border-white"
+        >
+          Download Resume
+        </a>
       </nav>
 
       {/* Hero */}

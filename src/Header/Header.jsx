@@ -46,10 +46,8 @@ function Header() {
           Contact
         </a>
         <a
-          href={`${process.env.PUBLIC_URL}/FINALIZED_TECH_RESUME.pdf?v=1`}
+          href="/PortfolioSite/FINALIZED_TECH_RESUME.pdf"
           download
-          target="_blank"
-          rel="noopener noreferrer"
           className="hover:text-white transition text-sm px-4 py-2 border-b-2 border-transparent hover:border-white"
         >
           Download Resume

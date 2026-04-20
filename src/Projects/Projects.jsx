@@ -25,6 +25,14 @@ const projects = [
     Link: "https://elijahswilliams.github.io/se_project_aroundtheus/",
     Repo: ["N/A"],
   },
+  {
+    Title: "AWCleaning",
+    Description:
+      "Cleaning service website with a contact form and booking system.",
+    Tech: ["React", "Node.js"],
+    Link: "https://elijahswilliams.github.io/AWCLEANING/",
+    Repo: ["https://github.com/ElijahSWilliams/AWCLEANING"],
+  },
 ];
 
 function Project() {

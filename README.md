@@ -2,6 +2,10 @@
 
 A modern developer portfolio built with React, showcasing my projects, skills, and experience as a Full Stack Developer.
 
+## Link to New Portfolio
+
+[V2 PortFolio](https://elijahswilliams.github.io/PortfolioV2/)
+
 ## Overview
 
 This portfolio serves as a central hub for my work, highlighting projects built with modern web technologies including React, Node.js, MongoDB, and Express.

@@ -1,12 +1,127 @@
-# React + Vite
+# Elijah Williams Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern developer portfolio built with React, showcasing my projects, skills, and experience as a Full Stack Developer.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio serves as a central hub for my work, highlighting projects built with modern web technologies including React, Node.js, MongoDB, and Express.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design
+- Custom React components
+- Project showcase section
+- Skills and technologies section
+- Contact form powered by EmailJS
+- Custom CSS styling
+- Mobile-friendly layout
+
+## Technologies Used
+
+### Frontend
+
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+
+### Tools
+
+- Git
+- GitHub
+- EmailJS
+
+## Projects Featured
+
+### Spotify Web Quiz
+
+A quiz application that uses Spotify data to generate music-based questions.
+
+**Tech Stack:** React, CSS
+
+### What's the Weather
+
+A weather application that fetches and displays real-time weather information.
+
+**Tech Stack:** React, CSS, APIs
+
+### Around the US
+
+A social media-inspired application allowing users to upload, delete, and interact with photos.
+
+**Tech Stack:** JavaScript, CSS, APIs
+
+### AWCleaning
+
+A business website for a cleaning service featuring contact and booking functionality.
+
+**Tech Stack:** React, Node.js
+
+**GroqAi Integration**
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Environment Variables
+
+If using EmailJS, create a `.env` file and add:
+
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+Then access them with:
+
+```javascript
+import.meta.env.VITE_EMAILJS_SERVICE_ID;
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Future Improvements
+
+- Enhanced accessibility features
+
+## Contact
+
+If you'd like to connect, collaborate, or discuss opportunities, feel free to reach out through the contact form on the website or through email: Elijahswilliams16@gmail.com.
+
+---
+
+Built by Elijah Williams
